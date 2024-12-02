@@ -108,12 +108,12 @@
                 },
                 {
                     "name": "Focus",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "b9d02d5a-b6e9-4c34-879c-98421a383b66",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -131,7 +131,7 @@
                 {
                     "name": "",
                     "id": "f336be93-0ad3-4cdf-84f8-26fde06e9172",
-                    "path": "<Mouse>/press",
+                    "path": "<Mouse>/delta",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
