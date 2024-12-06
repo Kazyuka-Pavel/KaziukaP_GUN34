@@ -1,5 +1,5 @@
 {
-    "name": "TankControl",
+    "name": "TankControls",
     "maps": [
         {
             "name": "Tank",
@@ -100,7 +100,7 @@
                 {
                     "name": "Fire",
                     "type": "Button",
-                    "id": "178aa44d-1c0e-4be3-bc1e-6f5f206af54d",
+                    "id": "d4fc28cb-8aee-4c80-9013-de5f6918fab4",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -109,7 +109,7 @@
                 {
                     "name": "Focus",
                     "type": "Value",
-                    "id": "29c65333-0924-453d-8e49-6517b5b0ff98",
+                    "id": "b9d02d5a-b6e9-4c34-879c-98421a383b66",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -119,7 +119,7 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "1226a51e-b24e-4828-8944-61369856144a",
+                    "id": "7b271299-65b5-44d4-b31d-48720d436dbf",
                     "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
@@ -130,7 +130,7 @@
                 },
                 {
                     "name": "",
-                    "id": "eb9f2f2c-8de9-4ff9-aac8-6d35db55f915",
+                    "id": "f336be93-0ad3-4cdf-84f8-26fde06e9172",
                     "path": "<Mouse>/delta",
                     "interactions": "",
                     "processors": "",
