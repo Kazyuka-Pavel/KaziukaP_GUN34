@@ -2876,6 +2876,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5889090503892484988, guid: 38fca3b8a9cace940b1b6e1a2a04350f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.5450001
+      objectReference: {fileID: 0}
     - target: {fileID: 8230013770569199790, guid: 38fca3b8a9cace940b1b6e1a2a04350f, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -2883,8 +2887,33 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8620628738846919662, guid: 38fca3b8a9cace940b1b6e1a2a04350f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7749369529771850841}
   m_SourcePrefab: {fileID: 100100000, guid: 38fca3b8a9cace940b1b6e1a2a04350f, type: 3}
+--- !u!1 &7749369529771850840 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8620628738846919662, guid: 38fca3b8a9cace940b1b6e1a2a04350f, type: 3}
+  m_PrefabInstance: {fileID: 7749369529771850839}
+  m_PrefabAsset: {fileID: 0}
+--- !u!111 &7749369529771850841
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7749369529771850840}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 578eba2683f232848acfe28303e05dc5, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 578eba2683f232848acfe28303e05dc5, type: 2}
+  - {fileID: 7400000, guid: 5613118bbd2aa514497c71eff00ee0b6, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1001 &8911159304158437075
 PrefabInstance:
   m_ObjectHideFlags: 0
