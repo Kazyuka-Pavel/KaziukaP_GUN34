@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <Settings>k__BackingField:
   - Mult: 1
-    Text: WOW!
-    Clip: {fileID: 7400000, guid: 5613118bbd2aa514497c71eff00ee0b6, type: 2}
+    Text: 
+    Clip: {fileID: 0}
   - Mult: 2
     Text: Good!
     Clip: {fileID: 7400000, guid: 5613118bbd2aa514497c71eff00ee0b6, type: 2}
