@@ -6,27 +6,11 @@ using Zenject;
 
 public class MainInstaller : MonoInstaller
 {
+
     public override void InstallBindings()
     {
-        //—цены ебез аддитивности 
-        //if (FindObjectsOfType<MainInstaller>().Length > 0)
-        //{
-        //    Destroy(gameObject);
-        //    return;
-        //}
 
-        //base.InstallBindings();
-        Container.Bind<SingleController>().AsSingle();
-        Container.BindInterfacesTo<MultiplayerController>().AsSingle();    
+       // Container.Bind<SceneController>().AsSingle();
 
-        //DontDestroyOnLoad(gameObject);
     }
-}
-
-public class SingleController : IController { }
-
-public class MultiplayerController : IController { }
-
-public interface IController
-{
 }

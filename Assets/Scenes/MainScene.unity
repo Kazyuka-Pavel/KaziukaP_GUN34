@@ -479,51 +479,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1488268842}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &500221579
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 500221581}
-  - component: {fileID: 500221580}
-  m_Layer: 0
-  m_Name: MainSample
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &500221580
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 500221579}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a63e22b43348704e9183b28ca35ed99, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &500221581
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 500221579}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 486.04117, y: 256.94916, z: -13.351288}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -539,6 +494,7 @@ GameObject:
   - component: {fileID: 1086495751}
   - component: {fileID: 1086495750}
   - component: {fileID: 1086495749}
+  - component: {fileID: 1086495752}
   m_Layer: 0
   m_Name: MainInstaller
   m_TagString: Untagged
@@ -575,6 +531,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _components:
   - {fileID: 1970000397}
+  - {fileID: 1086495752}
   _identifier: 
   _useSceneContext: 1
   _context: {fileID: 1086495751}
@@ -624,6 +581,18 @@ MonoBehaviour:
   _contractNames:
   - Main
   _parentContractNames: []
+--- !u!114 &1086495752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086495747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df5b8bc99893a1240b68388f09c05fe3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1291431798
 GameObject:
   m_ObjectHideFlags: 0
@@ -726,7 +695,7 @@ RectTransform:
   - {fileID: 226858782}
   - {fileID: 1970000399}
   - {fileID: 1579422750}
-  m_Father: {fileID: 268293987}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -892,8 +861,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1579422751}
-        m_TargetAssemblyTypeName: Loader, Assembly-CSharp
+      - m_Target: {fileID: 1086495752}
+        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
         m_MethodName: OpenGameScene
         m_Mode: 1
         m_Arguments:
@@ -1119,4 +1088,4 @@ SceneRoots:
   - {fileID: 2097378561}
   - {fileID: 1086495748}
   - {fileID: 1291431801}
-  - {fileID: 500221581}
+  - {fileID: 1488268842}
